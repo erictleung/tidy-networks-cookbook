@@ -12,7 +12,7 @@ README.md : NetworkScience.html
 	sed -i.tmp -e 's|( \[|(\[|g' README.md
 	sed -i.tmp -e 's| : |: |g' README.md
 	sed -i.tmp -e 's|../packages/|http://cran.rstudio.com/web/packages/|g' README.md
-	rm *.tmp])])'
+	rm *.tmp
 
 check :
 	R -e 'if(!require("ctv")) install.packages("ctv", repos = "http://cran.rstudio.com/"); print(ctv::check_ctv_packages("NetworkScience.ctv", repos = "http://cran.rstudio.com/"))'
