@@ -8,3 +8,30 @@ If you have any comments or suggestions for additions or improvements for this T
 
 - igraph = general purpose package to create and analyze network data
 - network = classes to manipulate relational data
+
+## Analysis on networks
+
+- qgraph = plotting and model estimation
+- sand = statistical analysis of network data
+
+## Simulate network data
+
+- NetSim
+- networkdiffusion
+
+## Network data visualizations
+
+- networkD3
+- ggraph
+- ggnetwork
+- geomnet
+- ggnet2
+
+## Network software APIs
+
+- RCy3
+- RCyjs
+- Rgraphviz
+- DiagrammeR
+
+## Gather data
