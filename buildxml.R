@@ -1,15 +1,22 @@
+# Source code modified from
+# https://github.com/ropensci/Hydrology/blob/master/buildxml.R
+
 # Install stringr for regular expressions
 if(!require("stringr")) {
     install.packages("stringr", repos="http://cran.rstudio.com")
 }
 
-template <- readLines("networkscience.ctv")
+template <- readLines("NetworkScience.ctv")
 template <- str_replace_all(template,"<li>" , "<li> \n")
+
+# Search for all package names surrounded by pkg tags
 pattern <- "pkg>[[:alnum:]]+[[:alnum:].]*[[:alnum:]]+"
 out <- paste0(template, collapse = " ")
 pkgs <- stringr::str_extract_all(out, pattern)[[1]]
 pkgs <- unique(gsub("^pkg>", "", pkgs))
-prPkg <- stringr::str_extract_all(out, "core\">[[:alnum:]]+[[:alnum:].]*[[:alnum:]]+")[[1]]
+prPkg <- stringr::str_extract_all(
+    out,
+    "core\">[[:alnum:]]+[[:alnum:].]*[[:alnum:]]+")[[1]]
 priority <- unique(gsub("^core\">", "", prPkg))
 
 pkgs <- pkgs[ !pkgs %in% priority] # Remove priority packages
@@ -19,7 +26,7 @@ pkgs <- lapply(as.list(sort(pkgs)), function(x) list(package=x))
 output <- 
     c(paste0('<CRANTaskView>
     <name>NetworkScience</name>
-    <topic>Hydrological Data and Modeling</topic>
+    <topic>Network Data and Modeling</topic>
     <maintainer email="erictleung@outlook.com">Eric Leung</maintainer>
     <version>',Sys.Date(),'</version>'),
     '  <info>',
@@ -35,11 +42,9 @@ output <-
 
     '  </packagelist>',
     '  <links>',
-    '     <view>Spatial</view>',
     '     <view>ReproducibleResearch</view>',
     '     <view>Environmetrics</view>',
-    '     <view>ExtremeValue</view>',
     '  </links>',
     '</CRANTaskView>')
 
-writeLines(output, "networkscience.ctv")
+writeLines(output, "NetworkScience.ctv")
