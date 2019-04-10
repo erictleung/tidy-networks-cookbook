@@ -6,18 +6,18 @@ If you have any comments or suggestions for additions or improvements for this T
 
 ## General network packages
 
-- igraph = general purpose package to create and analyze network data
-- network = classes to manipulate relational data
+- <pkg>igraph</pkg> = general purpose package to create and analyze network data
+- <pkg>network</pkg> = classes to manipulate relational data
 
 ## Analysis on networks
 
-- qgraph = plotting and model estimation
-- sand = statistical analysis of network data
+- <pkg>qgraph</pkg> = plotting and model estimation
+- <pkg>sand</pkg> = statistical analysis of network data
 
 ## Simulate network data
 
-- NetSim
-- networkdiffusion
+- <pkg>NetSim</pkg>
+- <pkg>networkdiffusion</pkg>
 
 ## Network data visualizations
 
