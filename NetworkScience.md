@@ -22,11 +22,12 @@ If you have any comments or suggestions for additions or improvements for this T
 
 ## Network data visualizations
 
-- networkD3
-- ggraph
-- ggnetwork
-- geomnet
-- ggnet2
+- <pkg>networkD3</pkg>
+- <pkg>ggraph</pkg>
+- <pkg>ggnetwork</pkg>
+- <pkg>geomnet</pkg>
+- <pkg>ggnet2</pkg>
+- <pkg>graphlayouts</pkg>
 
 ## Network software APIs
 
