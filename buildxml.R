@@ -23,7 +23,7 @@ pkgs <- pkgs[ !pkgs %in% priority] # Remove priority packages
 pkgs <- lapply(as.list(sort(pkgs)), function(x) list(package=x))
 
 # Create output
-output <- 
+output <-
     c(paste0('<CRANTaskView>
     <name>NetworkScience</name>
     <topic>Network Data and Modeling</topic>
@@ -44,6 +44,8 @@ output <-
     '  <links>',
     '     <view>ReproducibleResearch</view>',
     '     <view>Environmetrics</view>',
+    '     <a href="http://snap.stanford.edu/data/index.html">Stanford Large Network Dataset Collection</a>',
+    '     <a href="http://networkdata.ics.uci.edu/index.php">UCI Network Data Repository</a>',
     '  </links>',
     '</CRANTaskView>')
 
