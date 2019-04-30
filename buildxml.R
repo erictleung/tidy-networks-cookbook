@@ -46,6 +46,13 @@ output <-
     '     <view>Environmetrics</view>',
     '     <a href="http://snap.stanford.edu/data/index.html">Stanford Large Network Dataset Collection</a>',
     '     <a href="http://networkdata.ics.uci.edu/index.php">UCI Network Data Repository</a>',
+    '     <a href="networkrepository.com">Network Repository</a>',
+    '     <a href="http://socialcomputing.asu.edu/pages/datasets">Arizona State University Social Computing Data Repository</a>',
+    '     <a href="http://cnets.indiana.edu/resources/data-repository/">Indiana University CNetS Data Repository</a>',
+    '     <a href="http://konect.uni-koblenz.de/">The Koblenz Network Collection</a>',
+    '     <a href="http://www.sociopatterns.org/datasets/">SocioPatterns Datasets</a>',
+    '     <a href="https://sites.google.com/site/ucinetsoftware/datasets">UCINET Formatted Data Repository</a>',
+    '     <a href="http://vlado.fmf.uni-lj.si/pub/networks/data/">Pajek Network Datasets</a>',
     '  </links>',
     '</CRANTaskView>')
 
