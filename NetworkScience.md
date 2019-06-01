@@ -14,6 +14,7 @@ If you have any comments or suggestions for additions or improvements for this T
 - <pkg>qgraph</pkg> = plotting and model estimation
 - <pkg>sand</pkg> = statistical analysis of network data
 - <pkg>rnetcarto</pkg> = commpute network modularity by simulated annealing
+- <pkg>influenceR</pkg> = quantify structural importance of nodes
 
 ## Simulate network data
 
