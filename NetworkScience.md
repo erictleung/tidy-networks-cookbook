@@ -8,6 +8,7 @@ If you have any comments or suggestions for additions or improvements for this T
 
 - <pkg>igraph</pkg> = general purpose package to create and analyze network data
 - <pkg>network</pkg> = classes to manipulate relational data
+- <pkg>tidygraph</pkg> = tidyverse dialet built on top of igraph functionality
 
 ## Analysis on networks
 
@@ -15,6 +16,11 @@ If you have any comments or suggestions for additions or improvements for this T
 - <pkg>sand</pkg> = statistical analysis of network data
 - <pkg>rnetcarto</pkg> = commpute network modularity by simulated annealing
 - <pkg>influenceR</pkg> = quantify structural importance of nodes
+
+## Meta-analyses and multi-networks
+
+- <pkg>multinet</pkg> = analysis and mining of multilayer social networks
+- <pkg>multinma</pkg> = network meta-analysis of individual and aggreagate data in Stan
 
 ## Simulate network data
 
