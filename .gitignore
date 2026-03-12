@@ -16,6 +16,9 @@
 
 # RStudio files
 .Rproj.user/
+^.*\.Rproj$
+^\.Rproj\.user$
+.Rproj.user
 
 # produced vignettes
 vignettes/*.html
@@ -31,4 +34,12 @@ vignettes/*.pdf
 # Temporary files created by R markdown
 *.utf8.md
 *.knit.md
-.Rproj.user
+
+# Quarto configs and misc
+/.quarto/
+
+# Miscellaneous
+^\.github$
+^CODE_OF_CONDUCT\.md$
+^[\.]?air\.toml$
+^\.vscode$
