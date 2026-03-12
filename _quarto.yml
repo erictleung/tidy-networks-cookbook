@@ -1,0 +1,22 @@
+project:
+  type: book
+
+book:
+  title: "Tidy Networks in R Cookbook"
+  description: "Manipulating and graphing tidy networks in R"
+  author: "Eric Leung"
+  date: "09/21/2025"
+  chapters:
+    - index.qmd
+    - 01-getting-started.md
+
+bibliography:
+- packages.bib
+
+format:
+  html:
+    theme: cosmo
+  pdf:
+    documentclass: scrreprt
+  epub:
+    cover-image: cover.png
