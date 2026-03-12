@@ -1,0 +1,29 @@
+---
+title: "Tidy Networks in R Cookbook"
+author:
+- Eric Leung
+date: "`r Sys.Date()`"
+output: bookdown::gitbook
+description: Manipulating and graphing tidy networks in R
+documentclass: book
+github-repo: erictleung/tidy-networks-cookbook
+link-citations: true
+mainfont: Arial
+monofont: Courier New
+monofontoptions: Scale=0.7
+bibliography:
+- packages.bib
+site: bookdown::bookdown_site
+biblio-style: apalike
+---
+
+# Welcome {.unnumbered}
+
+This is the website for the **"Tidy Networks in R Cookbook"**.
+This book will help you get quickly started to
+manipulate, analyze, and visualize graph and network data with R.
+
+In this book, you will find modular and editable bits of code to help achieve
+what you want in code.
+These "recipes" are also a great starting places for you to then take them and
+edit them to your own use cases.
