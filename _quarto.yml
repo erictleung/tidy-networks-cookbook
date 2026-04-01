@@ -11,7 +11,7 @@ book:
   date: "09/21/2025"
   chapters:
     - index.qmd
-    - 01-getting-started.md
+    - 01-getting-started.qmd
 
 bibliography:
 - packages.bib
