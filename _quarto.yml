@@ -1,6 +1,9 @@
 project:
   type: book
 
+execute:
+  freeze: auto
+
 book:
   title: "Tidy Networks in R Cookbook"
   description: "Manipulating and graphing tidy networks in R"
